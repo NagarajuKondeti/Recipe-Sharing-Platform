@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task13.css">
+    <title>Recipe Sharing Platform</title>
+</head>
+<body>
+    <header>
+        <h1>Recipe Sharing Platform</h1>
+    </header>
+
+    <main>
+        <div id="recipe-form">
+            <h2>Add a Recipe</h2>
+            <form id="add-recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" required>
+
+                <label for="ingredients">Ingredients:</label>
+                <textarea id="ingredients" required></textarea>
+
+                <label for="instructions">Instructions:</label>
+                <textarea id="instructions" required></textarea>
+
+                <button type="button" onclick="addRecipe()">Add Recipe</button>
+            </form>
+        </div>
+
+        <div id="recipe-list">
+            <h2>Recipe List</h2>
+            <p> <b>Recipe Name:</b> Moong Dal Makhani</p>
+            <p> <b>Ingredients:</b>
+                1 cup Green Moong dal (overnight/ minimum 4 hours soaked)
+                ½ tsp Salt
+                Little Turmeric
+                1 inch Cinanmon
+                2 Cloves
+                2 Cardamoms
+                4 cups Water
+                4 tbsp Ghee
+                1 tsp Cumin
+                ¼ tsp Hing
+                2 Dry Chillies
+                2 tsp Garlic choppings
+                1 Onion choppings
+                2 Green Chilli choppings
+                1 tbsp Ginger garlic paste
+                ½ tsp Garam masala
+                ½ tsp Black pepper
+                ¼ tsp Turmeric
+                1 tsp Chilli Powder
+                1 Large Tomato choppings
+                1.5 cups Hot Water
+                2 tbsp Ghee
+                Sprinkle Coriander</p>
+            <p><b>Instructions:</b> Today we're presenting a restaurant style moong dal makhani or dal makhani or pesala makhani recipe. This recipe has a creamy texture and a delicious flavor. This veg curry recipe is perfect for weekend gatherings, get-togethers, and birthday parties. This moong dal makhani goes well with roti, chapati, naan rumali roti and jeera rice.
+                You can prepare this veg recipe at home with easily available ingredients including Green moong dal, indian spices, ghee, hing, dry chilies, garlic, onion, green chilli choppings, ginger garlic paste, garam masala, chilli powder, tomato choppings, kasuri methi, coriander.
+                We'll walk you through the process of making moong dal makhani curry recipe step by step. Continue watching the video until the end to learn how to make a perfect restaurant style moong dal makhani at home. Try making this recipe at home and let us know how it turns out</p>
+            <ul id="recipes"></ul>
+        </div>
+    </main>
+
+    <script src="Task13.js"></script>
+</body>
+</html>
